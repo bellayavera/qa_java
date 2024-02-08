@@ -7,10 +7,10 @@ public class LionAlex extends Lion {
     private final Predator predator;
     private final String sex;
 
-    public LionAlex(Predator predator, String sex) throws Exception {
-        super(predator, sex);
+    public LionAlex(Feline feline, String sex) throws Exception {
+        super(feline, sex);
         this.sex = "Самец";
-        this.predator = predator;
+        this.predator = feline;
     }
 
     public List<String> getFriends(){

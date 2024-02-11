@@ -8,7 +8,7 @@ import java.util.List;
 public class LionAlexTest {
 
     Feline feline = new Feline();
-    LionAlex lionAlex = new LionAlex(feline,"Самец");
+    LionAlex lionAlex = new LionAlex(feline);
 
     public LionAlexTest() throws Exception {
     }
